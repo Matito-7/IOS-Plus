@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    background-image: linear-gradient(#090a11,#242935 );
+
+}
+
+.box{
+    margin:0;
+    background-color: #0B0C10;
+    width: 100%;
+    position: fixed;
+    opacity: 0.95;
+}
+
+.box_cabecalho{
+    background-color: #0B0C10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15% 0 15%;
+}
+
+.box_cabecalho-titulo{
+    color: #c3073f;
+}
+
+.box_cabecalho_nav_lista-ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.box_cabecalho_nav_lista-li{
+    padding-inline: 20px;
+    color: #c5c6c7;
+}
+
+.box_section{
+    margin: 0px 0px 0px 0px;
+    display: flex;
+}
+
+.box_section_img{
+    width: 100%;
+    height: 10%;
+    margin: 0px;   
+}
+
+main{
+    margin: 20px 10% 0 10%;
+}
+
+.box_section_conteudo{
+    display: flex;
+}
+
+.box_section_conteudo img{
+    margin: 0px 0px 0px 0px;
+    width: 50%;
+}
+
+.box_section_conteudo_h2_p{
+    color: #c5c6c7;
+    padding: 5% 10px 0 10px;
+    text-align: center; 
+}
+
+.box_section_conteudo_op{
+    display: flex;
+}
+
+.box_section_conteudo_op_img{
+    margin: 15px 0px 0px 10px;
+    width: 50%;
+}
+
+.box_section_conteudo_h2_p_op{
+    color: #c5c6c7;
+    padding: 5% 10px 0 10px;
+    text-align: center;
+    margin: 15% 0px 0px 0px; 
+}
+
+.mapa{
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 0 0 5%;
+}
+
+.rodape{
+    margin-top: 100px;
+}
+
+.rodape_h1{
+    color: #c5c6c7;
+    text-align: center;
+}
+
+.rodape_img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodape_p{
+    color: #c5c6c7;
+    text-align: center;
+    margin: 0 15% 5% 15%;
+}
+
+@media (max-width: 900px){
+
+    .box_cabecalho{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+        position: none;
+        margin: 0;
+    }
+
+    .box_section_img {
+        width: 100%;
+    }
+
+    .box_section_conteudo{
+        display: block;
+        width: 100%;
+    }
+
+    .box_section_conteudo img{
+        width: 100%;
+    }
+
+    .box_section_conteudo_op{
+        display: block;
+        width: 100%;
+    }
+
+    .box_section_conteudo_op_img{
+        width: 100%;
+    }
+
+    .rodape_img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mapa{
+        width: 100%;
+    }
+}
